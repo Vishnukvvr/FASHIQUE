@@ -1,0 +1,313 @@
+*{
+    padding: 0px;
+    margin: 0px;box-sizing: 0px;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(158, 156, 156, 0.308);
+    padding: 20px;
+    
+}
+header ul{
+    display: flex;
+    justify-content: space-around;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    margin: 20px;
+    color:black;
+    padding: 7px;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position:relative;
+  height: 40px;
+  z-index: 10; 
+  background-color: rgba(158, 156, 156, 0.003); 
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+ul li a:hover{
+  background-color: rgb(15, 14, 14);
+  color: rgb(122, 119, 119);
+  border-radius: 4px;
+}
+.dark-mode ul li a:hover{
+  background-color: rgb(153, 151, 151);
+  color: rgb(13, 13, 13);
+  border-radius: 4px;
+}
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
+.dark-mode ul li a{
+  color: white;
+}
+.items {
+  display: flex;
+  z-index: 10;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+  .btn{
+    background-color: white;
+    border-radius: 50px;
+    padding-bottom: 0px;
+  }
+  .bi{
+    display: none;
+  }
+  .darkbtn{
+    width: 20px; height: 20px;
+    margin-top: -4px;
+  }
+  .carousel {
+    overflow: hidden;
+}
+.FASHIQUE{
+  font-size: 2rem;
+  font-weight: bold;
+  font-style: italic;
+}
+.fashion{
+  width: 100%;
+   height: 650px;
+}
+.welcome{
+  position: absolute;
+  top: 170px;
+  left: 16px;
+  margin: 20px;
+}
+.welcome1{
+  color: white; font-size: 4rem;font-weight: bold;
+}
+.welcome2{
+  color: white; font-size: 1.5rem;font-weight: bold;
+}
+.shopbtn{
+  padding: 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  margin-top: 30px;
+  background-color: rgba(240, 248, 255, 0.296);
+}
+.shopbtn:hover{
+  background-color: rgba(240, 248, 255, 0.764);
+}
+.stroe{
+  background-color: white;
+  border-radius: 20px;
+  overflow: hidden;
+  height: 370px;
+  width: 250px;
+  margin: 30px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#dress{
+  width: 250px;
+  height: 270px;
+  border-radius: 20px;
+  transition: transform 0.3s linear;
+  }
+#dress:hover{
+  transform: scale(1.1);
+}
+.buynow{
+  text-decoration: none;
+  color: white;
+}
+.rs{
+  margin-left: 20px;
+}
+.btn1{
+  margin-left: 20px;
+  color: white;
+  background-color: rgb(241, 161, 188);
+  padding: 5px;
+  font-weight: 1.3rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+}
+.btn1:hover{
+  background-color: palevioletred;
+}
+#products{
+  display: flex;
+  justify-content: space-evenly;
+}
+.dark-mode .stroe{
+  background-color: rgb(47, 46, 46);
+}
+#dress1{
+  width: 250px;
+  border-radius: 20px;
+  transition: transform 0.3s linear;
+
+}
+.stroe1{
+  background-color: white;
+  border-radius: 20px;
+  overflow: hidden;
+  height: 190px;
+  width: 250px;
+  margin: 30px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.dark-mode .stroe1{
+  background-color: rgb(47, 46, 46);
+}
+#dress1:hover{
+  transform: scale(1.1);
+}
+#dress2{
+  width: 250px;
+  border-radius: 20px;
+  transition: transform 0.3s linear;
+}
+.stroe2{
+  background-color: white;
+  border-radius: 20px;
+  overflow: hidden;
+  height: auto;
+  width: 250px;
+  margin: 30px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.dark-mode .stroe2{
+  background-color: rgb(47, 46, 46);
+}
+#dress2{
+  width: 250px;
+  border-radius: 20px;
+  transition: transform 0.3s linear;
+}
+#dress2:hover{
+  transform: scale(1.1);
+}
+footer{
+  background-color: rgb(62, 61, 61);
+  color: white;
+}
+.div3{
+  border-bottom: 2px solid black;
+  padding: 20px;
+}
+.fashion1{
+  font-size: 3rem;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  margin: 10px;
+  color: rgb(12, 12, 12);
+}
+.fot1{
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.contact1{
+  display: flex;
+  flex-direction: column;
+margin-left: 45%;
+}
+.insta{
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 5px;
+}
+.copyrights{
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.3rem;
+  padding: 10px;
+}
+.fa:hover{
+  color: rgb(73, 72, 72);
+}
+  @media (max-width:600px){
+    .bi{
+        display: block;
+      }
+      .items {
+        display: none;
+        flex-direction: column;
+        z-index: 10; 
+        position: absolute;
+        background-color: rgb(252, 252, 252);
+        top: 60px;
+        right: 50px;
+        width: 40%;
+        padding: 20px;
+        border-radius: 20px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    }
+    ul li a{
+      color:rgb(13, 13, 13);
+  }
+  .dark-mode     ul li a{
+    color:rgb(250, 250, 250);
+}
+.dark-mode .items{
+  background-color: black;
+}
+      header{
+        height: 40px;
+      }
+      .items.active{
+        display: flex;
+      }
+      .darkbtn{
+      margin-left: 50px;
+      }
+      header ul {
+        display: flex;
+        flex-direction: column;
+      }
+      header ul li {
+        margin: 10px;
+      }
+      .carousel{
+        height: 250px;
+        overflow: hidden;
+      }
+      .fashion{
+        width: 100%; height: 400px;
+      }
+      .welcome{
+        position: absolute;
+        top: 110px;
+        left: 16px;
+        margin: 5px;
+      }
+      .welcome1{
+        color: white; font-size: 2rem;font-weight: bold;
+      }
+      .welcome2{
+        color: white; font-size: 1rem;font-weight: bold;
+      }
+      #products{
+        display: flex;
+        flex-direction: column;
+      }
+      .contact1{
+        margin-left: 37%;
+      }
+  }
